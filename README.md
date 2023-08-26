@@ -42,4 +42,5 @@ The project will be running on our localhost.
 Typically at http://localhost:3000
 ## Author
 Kritika Uniyal
+
 Student-Chandigarh University
