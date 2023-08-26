@@ -1,0 +1,67 @@
+/* Overall Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Lighter background color for improved readability */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Slightly increased shadow for a subtle lift */
+  border-radius: 8px;
+}
+
+/* Header */
+.App-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+/* Account Information */
+.account-info {
+  background-color: #ffffff; /* White background to separate sections */
+  padding: 20px; /* Increased padding for more spacious look */
+  border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+  margin-top: 20px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+}
+
+.account-info p {
+  margin: 10px 0; /* Increased margin for better spacing */
+  font-size: 16px; /* Slightly larger font size for readability */
+}
+
+/* Input Fields */
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 12px; /* Increased padding for better input field size */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px; /* Larger font size for input fields */
+}
+
+.input-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px; /* Increased padding for button size */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Larger font size for buttons */
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
